@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterfirtsapp/scaffold.dart';
+import 'package:flutterfirtsapp/codelab.dart';
 
 void main(){
   runApp(MyApp());
@@ -10,10 +10,8 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'First Apps',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: FirstScreen(),
+      theme: ThemeData(),
+      home: DetailScreen()
     );
   }
 }
